@@ -11,20 +11,18 @@
       <td>#</td>
     </tr>
   </thead>
-  <tbody>
-    <ng-container *ngFor="let group of customerGroups">
-      <tr class="group-header">
-        <td colspan="5">{{ group.CustomerTypeId }} - {{ group.CustomterTypeName }}</td>
-      </tr>
-      <tr *ngFor="let cust of group.Customers">
-        <td>{{ cust.Id }}</td>
-        <td>{{ cust.Name }}</td>
-        <td>{{ cust.Email }}</td>
-        <td>{{ cust.Age }}</td>
-        <td>
-          <img [src]="cust.Image" [alt]="cust.Name" style="max-height: 80px; width: auto;" />
-        </td>
-      </tr>
-    </ng-container>
+  <tbody *ngFor="let group of customerGroups">
+    <tr class="group-header">
+      <td colspan="5">{{ group.CustomerTypeId }} - {{ group.CustomterTypeName }}</td>
+    </tr>
+    <tr *ngFor="let cust of group.Customers">
+      <td>{{ cust.Id }}</td>
+      <td>{{ cust.Name }}</td>
+      <td>{{ cust.Email }}</td>
+      <td>{{ cust.Age }}</td>
+      <td>
+        <img [src]="cust.Image" [alt]="cust.Name" style="max-height: 100px; width: auto;" />
+      </td>
+    </tr>
   </tbody>
 </table>

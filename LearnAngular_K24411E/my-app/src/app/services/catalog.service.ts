@@ -19,7 +19,7 @@ export class CatalogService {
       Cateid: 'cate2',
       CateName: 'Bia',
       Products: [
-        { ProductId: 'p4', ProductName: 'Heleiken', Price: 500, Image: 'assets/h4.png' },
+        { ProductId: 'p4', ProductName: 'Heneiken', Price: 500, Image: 'assets/h4.png' },
         { ProductId: 'p5', ProductName: '333', Price: 400, Image: 'assets/h5.png' },
         { ProductId: 'p6', ProductName: 'Sai Gon', Price: 600, Image: 'assets/h6.png' }
       ]
