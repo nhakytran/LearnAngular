@@ -1,0 +1,23 @@
+.customer-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 650px;
+  margin-top: 10px;
+}
+
+.customer-table td {
+  border: 1px solid #777;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.customer-table thead td {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.group-header td {
+  background-color: #e6e6e6;
+  font-weight: normal;
+}

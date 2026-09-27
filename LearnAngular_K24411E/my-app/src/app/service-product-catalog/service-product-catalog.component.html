@@ -1,0 +1,39 @@
+<p>service-product-catalog works!</p>
+<div class="catalog-container">
+  <table border="1" class="outer-table">
+    <ng-container *ngFor="let cat of categories">
+      <tr class="cat-header-row">
+        <td style="width: 40%;">Ma Danh Muc</td>
+        <td>Ten Danh Muc</td>
+      </tr>
+      <tr class="cat-data-row">
+        <td>{{ cat.Cateid }}</td>
+        <td>{{ cat.CateName }}</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="padding: 0;">
+          <table border="1" class="inner-table">
+            <thead>
+              <tr class="product-header-row">
+                <td>Ma San Pham</td>
+                <td>Ten San Pham</td>
+                <td>Gia San Pham</td>
+                <td>Picture</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let p of cat.Products">
+                <td>{{ p.ProductId }}</td>
+                <td>{{ p.ProductName }}</td>
+                <td>{{ p.Price }}</td>
+                <td>
+                  <img [src]="p.Image" [alt]="p.ProductName" style="max-height: 60px; width: auto;" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </ng-container>
+  </table>
+</div>

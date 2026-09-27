@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'>
+  <rect width='160' height='160' fill='#1b5e20' rx='16'/>
+  <circle cx='80' cy='65' r='36' fill='rgba(255,255,255,0.2)'/>
+  <text x='80' y='72' font-family='Arial, sans-serif' font-size='22' font-weight='bold' fill='#ffc107' text-anchor='middle'>SAI GON</text>
+  <text x='80' y='125' font-family='Arial, sans-serif' font-size='14' fill='#ffc107' text-anchor='middle'>Beer</text>
+</svg>

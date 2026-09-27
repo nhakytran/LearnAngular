@@ -1,0 +1,18 @@
+.btn-goback {
+  padding: 6px 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.detail-table {
+  border-collapse: collapse;
+  width: 250px;
+}
+
+.detail-table td {
+  border: 1px solid #444;
+  padding: 8px 12px;
+}
